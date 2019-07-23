@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>CATS Vinco</h1>
+            <h1>Pusa cat</h1>
         </div>
     </header>
 
@@ -97,7 +97,7 @@
                         var users = res;
 
                         users.forEach(user => {
-                            items +="Search for Result"+document.getElementById("cat-keyword").value+`<li id="contai">${user.name}<br>${user.origin}<br>${user.description}<br><a href="${user.wikipedia_url}">${user.wikipedia_url}</a></li>`
+                            items +="Search for Result "+document.getElementById("cat-keyword").value+`<li id="contai">${user.name}<br>${user.origin}<br>${user.description}<br><a href="${user.wikipedia_url}">${user.wikipedia_url}</a></li>`
                         });
                     
                         parsedata.append(items);
